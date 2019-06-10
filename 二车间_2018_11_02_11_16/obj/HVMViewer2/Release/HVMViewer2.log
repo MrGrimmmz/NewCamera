@@ -1,0 +1,87 @@
+﻿生成启动时间为 2019/5/2 17:31:14。
+     1>项目“E:\学习文件\研究生课程\Work\Sciyon\projects\图像识别\目前使用的(新)\二车间\二车间_2018_11_02_11_16\B#-Modal - 副本\HVMViewer2\HVMViewer2.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“..\..\obj\HVMViewer2\Release\HVMViewer2.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“..\..\obj\HVMViewer2\Release\HVMViewer2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"..\..\obj\HVMViewer2\Release\HVMViewer2.pch" /Fo"..\..\obj\HVMViewer2\Release\\" /Fd"..\..\obj\HVMViewer2\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"..\..\obj\HVMViewer2\Release\HVMViewer2.pch" /Fo"..\..\obj\HVMViewer2\Release\\" /Fd"..\..\obj\HVMViewer2\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BitmapStatic.cpp bounce.cpp Camera.cpp DlgInsertOrder.cpp DlgInsertPileNO.cpp DlgLogIn.cpp DlgPileNOInfo.cpp DlgProgress.cpp DlgQL.cpp DlgReverseStack.cpp DlgRevisePlateNO.cpp DlgSelcetCrane.cpp DlgXG.cpp DlgYucaiPile.cpp FORMVIEW.cpp FORMVIEW1.cpp HardCamera.cpp HVMView.cpp HVMViewer2.cpp HVMViewer2Doc.cpp MainFrm.cpp Mes.cpp ShowDialog.cpp xPublic\ADODB.CPP xPublic\Common.cpp xPublic\TCPClient.cpp xPublic\ThreadBase.cpp
+         BitmapStatic.cpp
+         bounce.cpp
+         Camera.cpp
+         DlgInsertOrder.cpp
+         DlgInsertPileNO.cpp
+         DlgLogIn.cpp
+         DlgPileNOInfo.cpp
+         DlgProgress.cpp
+         DlgQL.cpp
+         DlgReverseStack.cpp
+         DlgRevisePlateNO.cpp
+         DlgSelcetCrane.cpp
+         DlgXG.cpp
+         DlgYucaiPile.cpp
+         FORMVIEW.cpp
+         FORMVIEW1.cpp
+         HardCamera.cpp
+         HVMView.cpp
+         HVMViewer2.cpp
+         HVMViewer2Doc.cpp
+         正在编译...
+         MainFrm.cpp
+     1>MainFrm.cpp(594): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>MainFrm.cpp(620): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Mes.cpp
+         ShowDialog.cpp
+         ADODB.CPP
+         Common.cpp
+         TCPClient.cpp
+         ThreadBase.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /I..\..\obj\HVMViewer2\Release\ /nologo /fo"..\..\obj\HVMViewer2\Release\HVMViewer2.res" HVMViewer2.rc 
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\HVMViewer2.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"..\..\obj\HVMViewer2\Release\HVMViewer2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\学习文件\研究生课程\Work\Sciyon\projects\图像识别\目前使用的(新)\二车间\二车间_2018_11_02_11_16\bin\HVMViewer2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\HVMViewer2.lib" /MACHINE:X86 ..\..\obj\HVMViewer2\Release\HVMViewer2.res
+         ..\..\obj\HVMViewer2\Release\BitmapStatic.obj
+         ..\..\obj\HVMViewer2\Release\bounce.obj
+         ..\..\obj\HVMViewer2\Release\Camera.obj
+         ..\..\obj\HVMViewer2\Release\DlgInsertOrder.obj
+         ..\..\obj\HVMViewer2\Release\DlgInsertPileNO.obj
+         ..\..\obj\HVMViewer2\Release\DlgLogIn.obj
+         ..\..\obj\HVMViewer2\Release\DlgPileNOInfo.obj
+         ..\..\obj\HVMViewer2\Release\DlgProgress.obj
+         ..\..\obj\HVMViewer2\Release\DlgQL.obj
+         ..\..\obj\HVMViewer2\Release\DlgReverseStack.obj
+         ..\..\obj\HVMViewer2\Release\DlgRevisePlateNO.obj
+         ..\..\obj\HVMViewer2\Release\DlgSelcetCrane.obj
+         ..\..\obj\HVMViewer2\Release\DlgXG.obj
+         ..\..\obj\HVMViewer2\Release\DlgYucaiPile.obj
+         ..\..\obj\HVMViewer2\Release\FORMVIEW.obj
+         ..\..\obj\HVMViewer2\Release\FORMVIEW1.obj
+         ..\..\obj\HVMViewer2\Release\HardCamera.obj
+         ..\..\obj\HVMViewer2\Release\HVMView.obj
+         ..\..\obj\HVMViewer2\Release\HVMViewer2.obj
+         ..\..\obj\HVMViewer2\Release\HVMViewer2Doc.obj
+         ..\..\obj\HVMViewer2\Release\MainFrm.obj
+         ..\..\obj\HVMViewer2\Release\Mes.obj
+         ..\..\obj\HVMViewer2\Release\ShowDialog.obj
+         ..\..\obj\HVMViewer2\Release\stdafx.obj
+         ..\..\obj\HVMViewer2\Release\ADODB.obj
+         ..\..\obj\HVMViewer2\Release\Common.obj
+         ..\..\obj\HVMViewer2\Release\TCPClient.obj
+         ..\..\obj\HVMViewer2\Release\ThreadBase.obj
+         正在生成代码
+         已完成代码的生成
+         HVMViewer2.vcxproj -> E:\学习文件\研究生课程\Work\Sciyon\projects\图像识别\目前使用的(新)\二车间\二车间_2018_11_02_11_16\B#-Modal - 副本\HVMViewer2\..\..\bin\HVMViewer2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\HVMViewer2.exe;#1" /manifest XPStyle.manifest ..\..\obj\HVMViewer2\Release\HVMViewer2.exe.intermediate.manifest D:\vs2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“..\..\obj\HVMViewer2\Release\HVMViewer2.unsuccessfulbuild”。
+         正在对“..\..\obj\HVMViewer2\Release\HVMViewer2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\学习文件\研究生课程\Work\Sciyon\projects\图像识别\目前使用的(新)\二车间\二车间_2018_11_02_11_16\B#-Modal - 副本\HVMViewer2\HVMViewer2.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.91
